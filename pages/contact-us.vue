@@ -90,7 +90,7 @@ definePageMeta({
                             <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12">
                                 <div class="card custom-card contactus-form overflow-hidden">
                                     <div class="card-body">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d30444.274596168965!2d78.54114692513858!3d17.48198883339408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d17.4886524!2d78.5495041!4m5!1s0x3bcb9c7ec139a15d%3A0x326d1c90786b2ab6!2sspruko%20technologies!3m2!1d17.474805099999998!2d78.570258!5e0!3m2!1sen!2sin!4v1670225507254!5m2!1sen!2sin" height="370" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe src="https://www.google.com/maps/place/Banco+BPI+%7C+Faro/@37.0177959,-7.9685528,11659m/data=!3m1!1e3!4m23!1m16!4m15!1m6!1m2!1s0xd0552c4c7dc7ec1:0x14873c7e99845eab!2sBanco+BPI+%7C+Faro,+Edf+Tridente,+Av.+5+de+Outubro+19+B,+8000-077+Faro,+Portugal!2m2!1d-7.9273531!2d37.0177345!1m6!1m2!1s0xd0552c4c7dc7ec1:0x14873c7e99845eab!2sBanco+BPI+%7C+Faro,+Edf+Tridente,+Av.+5+de+Outubro+19+B,+8000-077+Faro,+Portugal!2m2!1d-7.9273531!2d37.0177345!3e0!3m5!1s0xd0552c4c7dc7ec1:0x14873c7e99845eab!8m2!3d37.0177345!4d-7.9273531!16s%2Fg%2F11cmcxkvrr?hl=en&entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D" height="370" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </div>    
                                 </div>
                             </div>
