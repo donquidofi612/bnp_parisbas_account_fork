@@ -127,18 +127,18 @@ export default {
 
     // Liste des bénéficiaires
     const beneficiaries = ref([
-      {
-        name: 'Ali Baba',
-        iban: 'MA64000111112222333344445555',
-        bank: 'Banque Populaire',
-        email: 'ali.baba@example.com',
-      },
-      {
-        name: 'Omar Khayyam',
-        iban: 'MA64000111112222333344445566',
-        bank: 'Attijariwafa Bank',
-        email: 'omar.khayyam@example.com',
-      },
+      // {
+      //   name: 'Ali Baba',
+      //   iban: 'MA64000111112222333344445555',
+      //   bank: 'Banque Populaire',
+      //   email: 'ali.baba@example.com',
+      // },
+      // {
+      //   name: 'Omar Khayyam',
+      //   iban: 'MA64000111112222333344445566',
+      //   bank: 'Attijariwafa Bank',
+      //   email: 'omar.khayyam@example.com',
+      // },
     ]);
 
     // Bénéficiaire en cours d'édition ou d'ajout
