@@ -90,18 +90,16 @@ export default {
 
     // Informations sur les cartes bancaires
     const creditCards = ref([
-      { id: 1, bankName: 'BMCE', lastDigits: '1234', balance: 5000, limit: 20000, type: 'visa' },
-      { id: 2, bankName: 'Attijariwafa Bank', lastDigits: '5678', balance: 3000, limit: 15000, type: 'mastercard' },
+      { id: 1, bankName: 'BPI', lastDigits: '1234', balance: 5000, limit: 20000, type: 'visa' },
+      { id: 2, bankName: 'BPI Banco', lastDigits: '5678', balance: 3000, limit: 15000, type: 'mastercard' },
       { id: 3, bankName: 'CIH', lastDigits: '9101', balance: 8000, limit: 30000, type: 'visa' }
     ]);
 
     // Transactions récentes avec les cartes bancaires
     const recentTransactions = ref([
-      { id: 1, cardLastDigits: '1234', date: '02/10/2024', description: 'Achat Boutique', amount: -200 },
-      { id: 2, cardLastDigits: '5678', date: '01/10/2024', description: 'Paiement en ligne', amount: -500 },
-      { id: 3, cardLastDigits: '9101', date: '30/09/2024', description: 'Retrait DAB', amount: -1000 },
-      { id: 4, cardLastDigits: '1234', date: '29/09/2024', description: 'Restaurant', amount: -300 },
-      { id: 5, cardLastDigits: '5678', date: '28/09/2024', description: 'Carburant', amount: -150 }
+      { id: 1, cardLastDigits: '5678', date: '2022-02-14', description: 'Dépôt éffectué', amount: 500000, type: 'Crédit' },
+      { id: 2, cardLastDigits: '5678', date: '2018-10-09', description: 'Dépôt éffectué ', amount: 830000, type: 'Crédit' },
+      { id: 3, cardLastDigits: '5678', date: '2012-02-14', description: 'Dépôt éffectué', amount: 520000, type: 'Crédit' },
     ]);
 
     // Données pour le graphique des dépenses par carte
@@ -111,7 +109,7 @@ export default {
         type: 'pie',
         height: 350
       },
-      labels: ['BMCE', 'Attijariwafa Bank', 'CIH'],
+      labels: ['BPI', 'BPI Banco', 'CIH'],
       legend: {
         position: 'bottom'
       },

@@ -100,11 +100,34 @@ export default {
 
     // Transactions exemple
     const transactions = ref([
-      { id: 1, date: '02/10/2024', description: 'Paiement en ligne', type: 'Débit', amount: -500, balanceAfter: 14500 },
-      { id: 2, date: '01/10/2024', description: 'Salaire', type: 'Crédit', amount: 7000, balanceAfter: 15000 },
-      { id: 3, date: '30/09/2024', description: 'Achat Boutique', type: 'Débit', amount: -200, balanceAfter: 8000 },
-      { id: 4, date: '29/09/2024', description: 'Virement', type: 'Crédit', amount: 500, balanceAfter: 8200 },
-      { id: 5, date: '28/09/2024', description: 'Retrait DAB', type: 'Débit', amount: -1000, balanceAfter: 7700 },
+       {
+    "id": 1,
+    "date": "14/02/2022",
+    "description": "Dépôt éffectué",
+    "type": "Crédit",
+    "amount": 500000,
+    "balanceAfter": 1350000
+  },
+  {
+    "id": 2,
+    "date": "09/10/2018",
+    "description": "Dépôt éffectué",
+    "type": "Crédit",
+    "amount": 830000,
+    "balanceAfter": 520000
+  },
+  {
+    "id": 3,
+    "date": "14/02/2012",
+    "description": "Dépôt éffectué",
+    "type": "Crédit",
+    "amount": 520000,
+    "balanceAfter": 0
+  },
+
+      { id: 1, cardLastDigits: '5678', date: '2022-02-14', description: 'Dépôt éffectué', amount: 500000, type: 'Crédit' },
+      { id: 2, cardLastDigits: '5678', date: '2018-10-09', description: 'Dépôt éffectué ', amount: 1187000, type: 'Crédit' },
+      { id: 3, cardLastDigits: '5678', date: '2012-02-14', description: 'Dépôt éffectué', amount: 520000, type: 'Crédit' },
       // Ajouter plus de transactions pour illustrer l'exemple
     ]);
 
