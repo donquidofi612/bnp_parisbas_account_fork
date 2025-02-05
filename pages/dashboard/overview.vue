@@ -17,6 +17,7 @@ const accountBalance = ref(bankData.accountBalance);
 const fullname = ref(bankData.fullname);
 const targetProgress = ref(bankData.targetProgress);
 const creditCardBalance = ref(bankData.creditCardBalance);
+const accountNumber = ref(bankData.accountNumber);
 const creditCardLimit = ref(bankData.creditCardLimit);
 const savingsBalance = ref(bankData.savingsBalance);
 const savingsGrowth = ref(bankData.savingsGrowth);
@@ -65,7 +66,7 @@ const recentActivities = ref(bankData.recentActivities);
     <div class="col-lg-3 col-md-6">
       <div class="card custom-card info-card">
         <div class="card-body">
-          <p class="text-muted mb-0">Compte Épargne</p>
+          <p class="text-muted mb-0">Compte Épargne <span v-if="accountNumber">{{accountNumber}}</span> </p>
           <h5 class="fw-semibold mt-1">{{ savingsBalance.toLocaleString('fr-FR', { style: 'currency', currency: 'EUR' }) }}</h5>
           <p class="mb-0 text-success fw-semibold">+{{ savingsGrowth }}% ce mois</p>
         </div>
