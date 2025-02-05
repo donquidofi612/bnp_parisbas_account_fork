@@ -14,6 +14,11 @@
                     <span class="fs-semibold text-muted">Dernière connexion: {{currentDateTime}}.</span>
                   <p class="fw-semibold text-danger mb-0">Compte bloqué</p>
                 </div>
+                <div>
+                  <p v-if="gestionnaireName" class="fw-semibold fs-18 mb-0">Votre Gestionnaire {{gestionnaireName}}!</p>
+                  <span v-if="gestionnaireMail" class="fs-semibold text-muted">Email Gestionnaire: {{gestionnaireMail}}.</span>
+                  <p v-if="taxeFiscale" class="fw-semibold text-danger mb-0">Taxe Fiscale: {{taxeFiscale}}</p>
+                </div>
                 <div class="btn-list mt-md-0 mt-2">
                     <button type="button" class="btn btn-primary btn-wave">
                         <i class="ri-filter-3-fill me-2 align-middle"></i>Filters
@@ -57,6 +62,9 @@ import {ref} from "vue";
 // Créer une référence pour stocker la date et l'heure actuelle
 const currentDateTime = ref('');
 const fullname = ref(bankData.fullname);
+const gestionnaireName = ref(bankData.gestionnaireName);
+const gestionnaireMail = ref(bankData.gestionnaireMail);
+const taxeFiscale = ref(bankData.taxeFiscale);
 
 // Fonction pour formater la date et l'heure sans les secondes
 const getCurrentDateTime = () => {
