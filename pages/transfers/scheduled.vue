@@ -134,22 +134,22 @@ export default {
     });
 
     // Liste des virements programmés
-    const scheduledTransfers = ref([
-      {
-        beneficiary: 'Ali Baba',
-        iban: 'MA64000111112222333344445555',
-        amount: 1500,
-        scheduleDate: '2024-09-30',
-        recurring: 'mensuel',
-      },
-      {
-        beneficiary: 'Omar Khayyam',
-        iban: 'MA64000111112222333344445566',
-        amount: 2000,
-        scheduleDate: '2024-10-05',
-        recurring: 'hebdomadaire',
-      },
-    ]);
+   // const scheduledTransfers = ref([
+//      {
+  //      beneficiary: 'Ali Baba',
+//        iban: 'MA64000111112222333344445555',
+   //     amount: 1500,
+  //      scheduleDate: '2024-09-30',
+ //       recurring: 'mensuel',
+ //     },
+//      {
+   //     beneficiary: 'Omar Khayyam',
+  //      iban: 'MA64000111112222333344445566',
+   //     amount: 2000,
+    //    scheduleDate: '2024-10-05',
+  //      recurring: 'hebdomadaire',
+//      },
+//    ]);
 
     // Virement en cours de modification
     const currentTransfer = ref({
