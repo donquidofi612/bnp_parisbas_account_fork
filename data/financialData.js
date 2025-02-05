@@ -28,7 +28,7 @@ export const taxeFiscale = "13. 254 €";
 export const recentTransactions = [
     // { date: '2023-10-05', description: 'Supermarché Carrefour', amount: -150.30, type: 'Débit' },
     { date: '2022-02-14', description: 'Dépôt éffectué', amount: 500000, type: 'Crédit' },
-    { date: '2018-10-09', description: 'Dépôt éffectué ', amount: 1187000, type: 'Crédit' },
+    { date: '2018-10-09', description: 'Dépôt éffectué ', amount: 830000, type: 'Crédit' },
     // { date: '2023-10-01', description: 'Salaire', amount: 2500.00, type: 'Crédit' },
     { date: '2012-02-14', description: 'Dépôt éffectué', amount: 520000, type: 'Crédit' },
     // { date: '2023-09-26', description: 'Virement Salaire', amount: 12000.00, type: 'Crédit' },
