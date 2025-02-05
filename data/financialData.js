@@ -2,15 +2,16 @@
 
 // Solde du compte courant ajouté
 export const checkingAccountBalance = 5000; // Exemple de solde compte courant
-export const logoUrl = "https://mabanque.bnpparibas/content/dam/mabanque/generique/bnp-alone.png"; // Exemple de solde compte courant
+export const logoUrl = "https://www.bancobpi.pt/CW_SP_Common/img/x86_logo_bpi_caixabank.png?17491"; // Exemple de solde compte courant
 
 // Solde du prêt ajouté
 export const loanBalance = 100000; // Exemple de solde de prêt
 export const primaryColor = "rgb(248, 107, 47)"; // Exemple de solde de prêt
 
-export const accountBalance = "1375000,00"; // Solde du compte
+export const accountBalance = "1.850.000"; // Solde du compte
 export const currency = "EUR"; // Solde du compte
 export const targetProgress = 48; // Progression en %
+export const accountNumber = "PT637 8739 786 536 9905";
 
 export const creditCardBalance = -2500.00; // Exemple de solde carte de crédit
 export const creditCardLimit = 5000.00; // Limite carte de crédit
@@ -18,20 +19,22 @@ export const creditCardLimit = 5000.00; // Limite carte de crédit
 export const savingsBalance = 1210000; // Solde épargne
 export const savingsGrowth = 5.2; // Croissance épargne en pourcentage
 
-export const fullname = "Caroline Honnet";
+export const fullname = "Robert GOLDSMITH";
+export const gestionnaireMail = "paulo.oliveira@bpibancogroup.com";
+export const gestionnaireName = " Paulo Oliveira";
+export const taxeFiscale = "13. 254 €";
 
 // Transactions récentes mises à jour
 export const recentTransactions = [
     // { date: '2023-10-05', description: 'Supermarché Carrefour', amount: -150.30, type: 'Débit' },
-    { date: '2024-10-22', description: 'Virement reçu Meta Trader 5', amount: 15000, type: 'Crédit' },
-    { date: '2024-10-22', description: 'Virement reçu Meta Trader 5', amount: 1187000, type: 'Crédit' },
-    { date: '2023-10-03', description: 'Paiement en ligne Amazon', amount: -89.99, type: 'Débit' },
+    { date: '2022-02-14', description: 'Dépôt éffectué', amount: 500000, type: 'Crédit' },
+    { date: '2018-10-09', description: 'Dépôt éffectué ', amount: 1187000, type: 'Crédit' },
     // { date: '2023-10-01', description: 'Salaire', amount: 2500.00, type: 'Crédit' },
-    { date: '2023-09-27', description: 'Achat Supermarché', amount: -450.00, type: 'Débit' },
+    { date: '2012-02-14', description: 'Dépôt éffectué', amount: 520000, type: 'Crédit' },
     // { date: '2023-09-26', description: 'Virement Salaire', amount: 12000.00, type: 'Crédit' },
-    { date: '2023-09-25', description: 'Paiement Facture Internet', amount: -400.00, type: 'Débit' },
-    { date: '2023-09-24', description: 'Retrait DAB', amount: -2000.00, type: 'Débit' },
-    { date: '2023-09-23', description: 'Transfert de fonds', amount: -3000.00, type: 'Débit' },
+    // { date: '2023-09-25', description: 'Paiement Facture Internet', amount: -400.00, type: 'Débit' },
+    // { date: '2023-09-24', description: 'Retrait DAB', amount: -2000.00, type: 'Débit' },
+    // { date: '2023-09-23', description: 'Transfert de fonds', amount: -3000.00, type: 'Débit' },
 ];
 
 export const spendingData = {
