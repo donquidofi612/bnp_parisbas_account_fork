@@ -116,7 +116,7 @@ export default {
     });
 
     // Données du compte épargne
-    const savingsBalance = ref(1210000); // Solde épargne actuel
+    const savingsBalance = ref(1850000); // Solde épargne actuel
     const accumulatedInterest = ref(1200); // Intérêts accumulés
     const savingsGoals = ref([
       { id: 1, goal: 'Voyage', amount: 5000, progress: 75 },
