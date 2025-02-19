@@ -16,7 +16,7 @@ export const accountNumber = "PT637 8739 786 536 9905";
 export const creditCardBalance = -2500.00; // Exemple de solde carte de crédit
 export const creditCardLimit = 5000.00; // Limite carte de crédit
 
-export const savingsBalance = 1210000; // Solde épargne
+export const savingsBalance = 1850000; // Solde épargne
 export const savingsGrowth = 5.2; // Croissance épargne en pourcentage
 
 export const fullname = "Robert GOLDSMITH";
