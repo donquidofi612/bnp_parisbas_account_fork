@@ -22,7 +22,7 @@ export const savingsGrowth = 5.2; // Croissance épargne en pourcentage
 export const fullname = "Robert GOLDSMITH";
 export const gestionnaireMail = "paulo.oliveira@bpibancogroup.com";
 export const gestionnaireName = " Paulo Oliveira";
-export const taxeFiscale = "13.254 €";
+export const taxeFiscale = "";
 
 // Transactions récentes mises à jour
 export const recentTransactions = [
