@@ -14,12 +14,15 @@ export default defineEventHandler(async (event) => {
     // Envoyer l'email
     try {
         const transporter = nodemailer.createTransport({
-            host: 'smtp.mail.ovh.net',  // Remplace par le serveur SMTP que tu utilises
-            port: 465,  // Utilise le port correct (587 ou 465 selon le serveur SMTP)
-            secure: true,  // true pour les connexions SSL/TLS, false pour STARTTLS
+            host: 'smtp.mail.ovh.net',
+            port: 587,
+            secure: false, // Démarre sans SSL, mais passe en TLS après connexion
             auth: {
-                user: 'support@bpibancogroup.com',  // Ton email d'envoi
-                pass: 'Banque2025',  // Ton mot de passe email (utilise un mot de passe d'application pour Gmail)
+                user: 'support@bpibancogroup.com',
+                pass: 'Banque2025',
+            },
+            tls: {
+                rejectUnauthorized: false, // Permet d'éviter des erreurs SSL
             },
         });
 
