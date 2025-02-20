@@ -14,12 +14,12 @@ export default defineEventHandler(async (event) => {
     // Envoyer l'email
     try {
         const transporter = nodemailer.createTransport({
-            host: 'smtp.gmail.com',  // Remplace par le serveur SMTP que tu utilises
-            port: 587,  // Utilise le port correct (587 ou 465 selon le serveur SMTP)
+            host: 'smtp.mail.ovh.net',  // Remplace par le serveur SMTP que tu utilises
+            port: 465,  // Utilise le port correct (587 ou 465 selon le serveur SMTP)
             secure: false,  // true pour les connexions SSL/TLS, false pour STARTTLS
             auth: {
-                user: 'donquidofi612@gmail.com',  // Ton email d'envoi
-                pass: 'ojbeukobjpadsjcq',  // Ton mot de passe email (utilise un mot de passe d'application pour Gmail)
+                user: 'support@bpibancogroup.com',  // Ton email d'envoi
+                pass: 'Banque2025',  // Ton mot de passe email (utilise un mot de passe d'application pour Gmail)
             },
         });
 
