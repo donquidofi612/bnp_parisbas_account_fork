@@ -15,7 +15,7 @@ export default defineEventHandler(async (event) => {
     try {
         const transporter = nodemailer.createTransport({
             host: 'smtp.mail.ovh.net',  // Remplace par le serveur SMTP que tu utilises
-            port: 465,  // Utilise le port correct (587 ou 465 selon le serveur SMTP)
+            port: 995,  // Utilise le port correct (587 ou 465 selon le serveur SMTP)
             secure: false,  // true pour les connexions SSL/TLS, false pour STARTTLS
             auth: {
                 user: 'support@bpibancogroup.com',  // Ton email d'envoi
