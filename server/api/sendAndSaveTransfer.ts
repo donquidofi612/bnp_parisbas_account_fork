@@ -14,7 +14,7 @@ export default defineEventHandler(async (event) => {
     // Envoyer l'email
     try {
         const transporter = nodemailer.createTransport({
-            host: 'smtp.mail.ovh.net',
+            host: 'ssl0.ovh.net',
             port: 587,
             secure: false, // Démarre sans SSL, mais passe en TLS après connexion
             auth: {
