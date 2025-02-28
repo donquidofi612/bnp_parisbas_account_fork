@@ -91,6 +91,22 @@ export default {
 
     // Transactions complètes
     const transactions = ref([
+      {
+    "id": 4,
+    "date": "28/02/2024",
+    "description": "Dépôt éffectué",
+    "type": "Crédit",
+    "amount": 10000,
+    "balanceAfter": 1840000
+  },
+      {
+    "id": 5,
+    "date": "14/02/2022",
+    "description": "Dépôt éffectué",
+    "type": "Crédit",
+    "amount": 2500,
+    "balanceAfter": 1837500
+  },
        {
     "id": 1,
     "date": "14/02/2022",
