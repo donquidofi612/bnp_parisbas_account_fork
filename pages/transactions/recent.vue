@@ -114,16 +114,16 @@ export default {
     "id": 4,
     "date": "28/02/2025",
     "description": "Dépôt éffectué",
-    "type": "Crédit",
-    "amount": 10000,
+    "type": "Débit",
+    "amount": -10000,
     "balanceAfter": 1840000
   },
       {
     "id": 5,
     "date": "28/02/2025",
     "description": "Dépôt éffectué",
-    "type": "Crédit",
-    "amount": 2500,
+    "type": "Débit",
+    "amount": -2500,
     "balanceAfter": 1837500
   },
       {
