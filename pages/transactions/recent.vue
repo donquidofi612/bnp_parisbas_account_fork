@@ -148,7 +148,7 @@ export default {
         "description": "Dépôt éffectué",
         "type": "Crédit",
         "amount": 520000,
-        "balanceAfter": 0
+        "balanceAfter": 1.837.500
       }
     ]);
 
