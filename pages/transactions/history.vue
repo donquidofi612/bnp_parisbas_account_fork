@@ -93,7 +93,7 @@ export default {
     const transactions = ref([
       {
     "id": 4,
-    "date": "28/02/2024",
+    "date": "28/02/2025",
     "description": "Dépôt éffectué",
     "type": "Crédit",
     "amount": 10000,
@@ -101,7 +101,7 @@ export default {
   },
       {
     "id": 5,
-    "date": "14/02/2022",
+    "date": "28/02/2025",
     "description": "Dépôt éffectué",
     "type": "Crédit",
     "amount": 2500,
