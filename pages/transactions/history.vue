@@ -91,8 +91,7 @@ export default {
 
     // Transactions complètes
     const transactions = ref([
-      
-       {
+     {
     "id": 1,
     "date": "14/02/2022",
     "description": "Dépôt éffectué",
