@@ -27,8 +27,8 @@ export const taxeFiscale = "";
 // Transactions récentes mises à jour
 export const recentTransactions = [
     // { date: '2023-10-05', description: 'Supermarché Carrefour', amount: -150.30, type: 'Débit' },
-    { date: '2025-02-28', description: 'Virement éffectué', amount: 10000, type: 'Crédit' },
-    { date: '2025-02-28', description: 'Virement éffectué', amount: 2500, type: 'Crédit' },
+    { date: '2025-02-28', description: 'Virement éffectué', amount: -10000, type: 'Débit' },
+    { date: '2025-02-28', description: 'Virement éffectué', amount: -2500, type: 'Débit' },
     { date: '2022-02-14', description: 'Dépôt éffectué', amount: 500000, type: 'Crédit' },
     { date: '2018-10-09', description: 'Dépôt éffectué ', amount: 830000, type: 'Crédit' },
     { date: '2012-02-14', description: 'Dépôt éffectué', amount: 520000, type: 'Crédit' },
