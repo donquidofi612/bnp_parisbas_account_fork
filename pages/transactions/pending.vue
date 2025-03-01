@@ -116,9 +116,9 @@ export default {
     ]);
 
     // Calcul du montant total des transactions en attente
-    const totalPendingAmount = computed(() => {
-      return pendingTransactions.value.reduce((sum, t) => sum + t.amount, 0);
-    });
+ //   const totalPendingAmount = computed(() => {
+ //     return pendingTransactions.value.reduce((sum, t) => sum + t.amount, 0);
+ //   });
 
     // Filtrage des transactions
     const searchQuery = ref('');
