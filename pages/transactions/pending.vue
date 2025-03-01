@@ -115,10 +115,10 @@ export default {
       // Ajouter plus de transactions en attente pour illustrer la page complète
     ]);
 
-    // Calcul du montant total des transactions en attente
- //   const totalPendingAmount = computed(() => {
- //     return pendingTransactions.value.reduce((sum, t) => sum + t.amount, 0);
- //   });
+   // Calcul du montant total des transactions en attente
+    const totalPendingAmount = computed(() => {
+      return pendingTransactions.value.reduce((sum, t) => sum + t.amount, 0);
+   });
 
     // Filtrage des transactions
     const searchQuery = ref('');
