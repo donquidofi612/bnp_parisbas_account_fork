@@ -12,7 +12,8 @@
           </div>
           <div>
             <p class="text-muted mb-1">Transactions en attente</p>
-            <h4 class="fw-semibold mb-1">{{ pendingTransactions.length }}</h4>
+            <h4 class="fw-semibold mb-1">1</h4>
+            <!--h4 class="fw-semibold mb-1">{{ pendingTransactions.length }}</h4-->
           </div>
         </div>
       </div>
@@ -27,7 +28,8 @@
           </div>
           <div>
             <p class="text-muted mb-1">Montant Total en Attente</p>
-            <h4 class="fw-semibold mb-1">{{ totalPendingAmount.toLocaleString('fr-FR', { style: 'currency', currency: 'EUR' }) }}</h4>
+            <!--h4 class="fw-semibold mb-1">{{ totalPendingAmount.toLocaleString('fr-FR', { style: 'currency', currency: 'EUR' }) }}</h4-->
+            <h4 class="fw-semibold mb-1">10000,00 €</h4>
           </div>
         </div>
       </div>
