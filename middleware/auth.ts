@@ -11,8 +11,8 @@ export default defineNuxtRouteMiddleware((to) => {
 
      const route = useRoute()
      if(route.path !== '/auth/login')
-         Swal.fire('Erreur', "Votre compte est temporairement bloqué. Vous devez vous acquitter d'un montant de 60 000 € afin" +
-             " de débloquer le compte. Merci de contacter votre conseiller pour finaliser cette opération", 'error');
+         Swal.fire('Erreur', "Votre compte est temporairement bloqué." +
+             " Merci de contacter votre gestionnaire.", 'error');
   
     // if token exists and url is /login redirect to homepage
     if (token.value && to?.name === 'auth-login') {
