@@ -109,7 +109,7 @@ export default {
 
     // Transactions en attente
     const pendingTransactions = ref([
-      { id: 1, date: '28/02/2025', description: 'Virement', type: 'Débit', amount: -10000, status: 'En Attente' },
+      { id: 1, date: '28/02/2025', description: 'Virement', type: 'Débit', amount: -10000, status: 'Suspendu' },
       { id: 2, date: '28/02/2025', description: 'Paiement carte bancaire', type: 'Débit', amount: -2500, status: 'Effectué' },
     //  { id: 3, date: '03/02/2024', description: 'Prélèvement automatique', type: 'Débit', amount: -1500, status: 'En Attente' },
     //  { id: 4, date: '02/10/2024', description: 'Virement reçu', type: 'Crédit', amount: 3000, status: 'En Attente' },
